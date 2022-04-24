@@ -4,4 +4,4 @@
 
 @section('content')
     Urutan Ke - {{ $ke }}
-@endsection  
+@endsection

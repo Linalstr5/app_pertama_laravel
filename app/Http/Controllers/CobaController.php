@@ -66,4 +66,4 @@ class CobaController extends Controller
         \App\Models\Friends::find($id)->delete();
         return redirect('/');
     }
-} 
+}
