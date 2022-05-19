@@ -12,7 +12,7 @@
 */
 
 $app = new Illuminate\Foundation\Application(
-    $ENV['APP_BASE_PATH'] ?? dirname(DIR_)
+    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
 );
 
 /*
